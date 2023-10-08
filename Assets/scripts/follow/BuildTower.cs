@@ -73,7 +73,7 @@ public class BuildTower : MonoBehaviour
             {
                 child.transform.localPosition += Vector3.up;
             }
-            tower = new GameObject("Towa" + towerId);
+            tower = new GameObject("Tower" + towerId);
             tower.transform.parent = transform;
             tower.transform.localPosition = new Vector3(0, 0, 0);
             TowerList.Add(tower);
